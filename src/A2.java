@@ -85,8 +85,8 @@ public class A2 {
     * most frequent words, least frequent words, and all words.
     */
    private void printStatistics() {
-      wordList.sort(); // Sort the wordList alphabetically
-      calculateTotalWords(); // Calculate total words and stop words
+      wordList.sort();
+      calculateTotalWords();
 
       System.out.println("Total Words: " + totalWords);
       System.out.println("Unique Words: " + wordList.size());
